@@ -1,0 +1,32 @@
+Nume: Corcodel Maria-Iulia
+Grupa: 314 CC
+In primul rand vreau sa va spun ca imaginea de inceput
+(nyan cat ul care se deplaseaza si flacarile) nu sunt 
+designuite de mine personal ci sunt luate de pe net
+si ulterior modificate si combinate in scopul de imfrumusetare
+a grafici jocului pentru bonus, restul codului creat de mine 
+este 100% original. Va rog nu imi dati copiat pentru acest element
+de design.
+Formatul ales pt fisierele configuratiilor mele este : 0 - nu este nava, 
+1-este nava.
+Cand se ruleaza executabilul de verifica daca s-au dat argumente
+si daca fisierele exista si daca nu se intoarce o eroare.
+Dupa ecranul de introducere este afisat meniul iar utilizatorul se 
+poate plimba printre optiuni(dar optiunea de resume game nu poate fi
+aleasa pana in punctul in care un joc nu a fost deja inceput). In 
+momentul in care este inceput un nou joc playerul trebuie sa isi aleaga
+vizual si prin taste configuratia dorita, iar ulterior este facuta random si
+configuratia calculatorului si jocul este afisat. Jocul se poate juca si se
+pot apasa oricand si de oricate ori butonele de randomize si destroy in
+advance. La final se afiseaza castigatorul si statisticile numarului 
+de nave doborate.
+Un patrat ocupa 2 randuri si 4 coloane, si e colorat frumos, tabla fiind 
+o combinatie de alb si galben. In momentul in care playerul alege corect 
+o parte de nava pe matrice patratul respectiv se face verde si
+playerul poate sa loveasca din nou. In cazul contrar se face rosu 
+patratul. Navele jucatorului sunt semnalizate cu verde pentru a putea 
+sa iti vezi nr de nave si locatia lor, iar cand calculatorul loveste o
+patratica buna aceasta se face magenta si calculatorul poate lovi din nou.
+Daca nu se face patratica rosie.
+Am alocat dinamic vectorii din meniu, numarul de nave gasite in randomizare,
+si numarul de nave care trebuie la inceput puse pe matricea calculatorului.
